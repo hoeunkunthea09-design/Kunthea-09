@@ -9,65 +9,123 @@
 
 <body>
 
-    <header>
-        <nav class="navbar">
-            <h1 class="logo">MyWebsite</h1>
+<header> <nav class="navbar">
+    <h1 class="logo">MyWebsite</h1> 
+    <ul class="nav-links"> 
+        <li> <a href="index.html">Home</a> </li> 
+        <li> <a href="about.html" class="active">About Me</a> </li> 
+        <li> <a href="contact.html">Contact</a> </li> 
+    </ul> 
+</nav> 
+</header>  
 
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html" class="active">About Me</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+<main class="about-page"> 
+    <section class="about-header"> 
+        <p class="small-title"> ABOUT ME </p> 
+        <h2> Get to Know Me 👋 </h2> 
+        <p> Welcome to my personal website. 
+            Here you can learn more about my education, skills, journey, and future goals. 
+        </p> 
+    </section> 
+         
+    <section class="about-grid">
+        <div class="about-card"> 
+            <div class="card-icon"> 🎓 </div> 
+            <h3> Education </h3> 
+            <p> I am an IT student learning programming, web development, databases, and software development. </p> 
+        </div> 
 
-    <main class="about-page">
+        <div class="about-card"> 
+            <div class="card-icon"> 💻 </div> 
+            <h3> My Skills </h3> 
+            <p> I am learning HTML, CSS, JavaScript, Python, Git, GitHub, SQL, and UI/UX Design. </p> 
+        </div>
 
-        <section class="about-header">
-            <p class="small-title">ABOUT ME</p>
-            <h2>Get to Know Me 👋</h2>
-            <p>
-                Here is a little information about me,
-                my skills, and my goals.
-            </p>
-        </section>
+        <div class="about-card"> 
+            <div class="card-icon"> 🚀 </div> 
+            <h3> My Goal </h3> 
+            <p> My goal is to become a professional IT developer and create useful websites and applications. </p> 
+        </div> 
+    </section> 
+    
+    <section class="history-section"> 
+        <div class="history-header"> 
+            <p class="small-title"> MY HISTORY </p> 
+            <h2> My Journey in IT 💻 </h2> 
+            <p> My journey in technology is a continuous learning experience. Here are some important steps in my journey. </p> 
+        </div>
 
-        <section class="about-grid">
+        <div class="timeline">
+            <div class="timeline-item"> 
+                <div class="timeline-dot"> 1 </div>
 
-            <div class="about-card">
-                <div class="card-icon">🎓</div>
-                <h3>Education</h3>
-                <p>
-                    I am an IT student learning programming,
-                    wep programming, databases, and software programming.
-                </p>
+                <div class="timeline-content"> 
+                    <span class="timeline-year"> Beginning </span> 
+                    <h3> 🎯 Discovering Technology </h3> 
+                    <p> I became interested in computers and technology. I wanted to understand how websites, applications, and software work. </p> 
+                </div> 
+            </div>
+            <div class="timeline-item"> 
+                <div class="timeline-dot"> 2 </div>
+
+                <div class="timeline-content"> 
+                    <span class="timeline-year"> Education </span> 
+                    <h3> 🎓 Starting IT </h3> 
+                    <p> I started studying Information Technology and learned the basic concepts of programming, databases, and web development. </p> 
+                </div> 
             </div>
 
-            <div class="about-card">
-                <div class="card-icon">💻</div>
-                <h3>My Skills</h3>
-                <p>
-                    HTML, CSS, Js, Python, Git, GitHub,
-                    SQL, and UI/UX Design.
-                </p>
-            </div>
+            <div class="timeline-item"> 
+                <div class="timeline-dot"> 3 </div> 
+                <div class="timeline-content"> 
+                    <span class="timeline-year"> Web Development </span> 
+                    <h3> 🌐 Learning Web Programming </h3> 
+                    <p> I started learning HTML and CSS and began creating simple websites. Later, I started learning JavaScript to make websites interactive. </p> 
+                </div> 
+            </div>  
+            <div class="timeline-item"> 
+                <div class="timeline-dot"> 4 </div> 
+                <div class="timeline-content"> 
+                    <span class="timeline-year"> Projects </span> 
+                    <h3> 🚀 Creating Projects </h3> 
+                    <p> I started creating my own projects to practice programming. These projects helped me improve my coding skills and understand real development. </p> 
+                </div> 
+            </div> 
+            <div class="timeline-item"> 
+                <div class="timeline-dot"> 5 </div> 
+                <div class="timeline-content"> 
+                    <span class="timeline-year"> Today </span> 
+                    <h3> 💡 Improving My Skills </h3> 
+                    <p> Today, I continue learning programming, Git and GitHub, databases, UI/UX design, and modern web development. </p> 
+                </div> 
+            </div> 
+            <div class="timeline-item"> 
+                <div class="timeline-dot"> 6 </div> 
+                <div class="timeline-content"> 
+                    <span class="timeline-year"> Future </span> 
+                    <h3> 🌟 My Future Goal </h3> 
+                    <p> In the future, I want to become a professional IT developer and create useful websites and applications that can help people. </p> 
+                </div> 
+            </div> 
+        </div> 
+    </section>
+    
+    <section class="about-story"> 
+        <div class="story-content"> 
+            <p class="small-title"> MY STORY </p> 
+            <h2> A Little More About Me </h2> 
+            <p> I believe that learning technology is a continuous journey. There are always new programming languages, tools, and technologies to discover. </p> 
+            <p> I enjoy learning new things, practicing my coding skills, and creating projects. When I face a difficult problem, I try to understand it step by step and find a solution. </p> 
+            <p> My goal is not only to learn how to write code, but also to use technology to solve problems and create something useful for other people. </p> 
+        </div> 
+    </section> 
+</main>
+<a href="contact.html" class="btn">Learn More</a>
 
-            <div class="about-card">
-                <div class="card-icon">🚀</div>
-                <h3>My Goal</h3>
-                <p>
-                    My goal is to become a good IT developer
-                    and create useful websites and applications.
-                </p>
-            </div>
+<footer> 
+    <p> © 2026 MyWebsite. All rights reserved. </p> 
+</footer>
 
-        </section>
-
-    </main>
-
-    <footer>
-        <p>© 2026 MyWebsite. All rights reserved.</p>
-    </footer>
 
 </body>
 </html>
